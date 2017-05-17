@@ -34,6 +34,15 @@ When the break ends, a blinking confirmation screen is shown, with the shape of 
 
 That's all! Enjoy!
 
+## Source code
+You can find javascript the source code of this project in the src folder. This is a screenshot of how the block editor looks like:
+
+<img src="https://github.com/wbigger/domato-timer/blob/master/screenshots/Screen%20Shot%202017-05-17%20at%202.31.59%20PM.png" width="256">
+
+To see the code on your PXT/Microbit editor, you have two possibilities:
+* import the .hex file of this project into PXT (you can find the .hex file in the target directory)
+* create a new project, switch to the javascript editor, than copy-paste the javascript source code.
+
 
 # PXT version
 This is the about page of the PXT site:
