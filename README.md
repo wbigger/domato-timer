@@ -43,6 +43,9 @@ To see the code on your PXT/Microbit editor, you have two possibilities:
 * import the .hex file of this project into PXT (you can find the .hex file in the target directory)
 * create a new project, switch to the javascript editor, than copy-paste the javascript source code.
 
+## About the name
+Domato is a wordplay between the translation of tomato in turkey (_domates_) and the word tomato itself. It is a small contribution to denounce the closure of Wikipedia in Turkey and other censorship actions.
+
 
 # PXT version
 This is the about page of the PXT site:
