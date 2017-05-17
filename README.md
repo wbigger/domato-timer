@@ -35,16 +35,16 @@ When the break ends, a blinking confirmation screen is shown, with the shape of 
 That's all! Enjoy!
 
 ## Source code
-You can find javascript the source code of this project in the src folder. This is a screenshot of how the block editor looks like:
+You can find the javascript source code of this project in the src folder. This is a screenshot of how the block editor looks like:
 
-<img src="https://github.com/wbigger/domato-timer/blob/master/screenshots/Screen%20Shot%202017-05-17%20at%202.31.59%20PM.png" width="256">
+<img src="https://github.com/wbigger/domato-timer/blob/master/screenshots/Screen%20Shot%202017-05-17%20at%202.31.59%20PM.png">
 
 To see the code on your PXT/Microbit editor, you have two possibilities:
 * import the .hex file of this project into PXT (you can find the .hex file in the target directory)
 * create a new project, switch to the javascript editor, than copy-paste the javascript source code.
 
 ## About the name
-Domato is a wordplay between the translation of tomato in turkey (_domates_) and the word tomato itself. It is a small contribution to denounce the closure of Wikipedia in Turkey and other censorship actions.
+Domato is a wordplay between the translation of tomato in turkish (_domates_) and the word tomato itself. It is a small contribution to denounce the block of Wikipedia site in Turkey and other censorship actions.
 
 
 # PXT version
