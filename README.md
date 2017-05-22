@@ -61,3 +61,6 @@ Microsoft MakeCode version: 0.12.25
 
 C++ runtime version: v2.0.0-rc8
 ```
+
+# Trademarks
+All product names, logos, and brands are property of their respective owners.
