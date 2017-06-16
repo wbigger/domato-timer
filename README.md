@@ -47,19 +47,20 @@ To see the code on your PXT/Microbit editor, you have two possibilities:
 Domato is a wordplay between the translation of tomato in turkish (_domates_) and the word tomato itself. It is a small contribution to denounce the block of Wikipedia site in Turkey and other censorship actions.
 
 
-# PXT version
-This is the about page of the PXT site:
+# Makecode version
+This is the about page of the Makecode site that was been used to make this project.
+
+Note: Makecode is the new name of the pxt site.
 
 ```
-About pxt.microbit.org
+About makecode.microbit.org
+A Blocks / JavaScript code editor for the micro:bit powered by Microsoft MakeCode.
 
-A Blocks / JavaScript code editor for the micro:bit.
+makecode.microbit.org version: 0.12.40
 
-pxt.microbit.org version: 0.9.77
+Microsoft MakeCode version: 0.12.94
 
-Microsoft MakeCode version: 0.12.25
-
-C++ runtime version: v2.0.0-rc8
+C++ runtime version: v2.0.0-rc11
 ```
 
 # Trademarks
