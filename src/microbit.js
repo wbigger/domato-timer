@@ -2,9 +2,9 @@ let plotxy = 0
 let plotMinutes = 0
 let statusIdle = 0
 let statusRest = 0
+let dailyCounter = 0
 let index = 0
 let pomodoroSeconds = 0
-let dailyCounter = 0
 let statusRunning = 0
 let blinkToggle = false
 let status = 0
@@ -56,10 +56,13 @@ basic.forever(() => {
 })
 input.onButtonPressed(Button.A, () => {
     status = statusRunning
-    dailyCounter += 1
+    if (plotMinutes == 25) {
+        dailyCounter += 1
+    }
     pomodoroSeconds = 25 * 60
     basic.clearScreen()
     basic.showNumber(dailyCounter)
+    basic.pause(500)
     plotMinutes = pomodoroSeconds / 60
     // plot one led for each minute
     for (let index42 = 0; index42 <= plotMinutes - 1; index42++) {
@@ -90,6 +93,5 @@ statusRest = 2
 status = statusIdle
 pomodoroSeconds = 0
 plotMinutes = 0
-dailyCounter = 0
+dailyCounter = 1
 led.setBrightness(150)
-
