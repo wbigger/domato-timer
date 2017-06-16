@@ -34,10 +34,21 @@ When the break ends, a blinking confirmation screen is shown, with the shape of 
 
 That's all! Enjoy!
 
-## Tips
+# Tips
 If you want to align the shown number of the current pomodoro with your daily counter, at the very beginning of a pomodoro you can press multiple time the A button. Note however that if you press the same button during a pomodoro, the counter will be *not* increased, because restarting a running pomodoro makes it void, according with the official recommendations.
 
-## Source code
+## Compliance with official recommendations
+According to The Pomodoro Technique book, v1.3, paragraph 3.10, there are a number of recommendations for a pomodoro to be effective. I followed these recommendations when designing the Domato-Timer.
+
+* start a new pomodoro requires an explicit action of the user, i.e. press a button, as declaration of user determination to start working on the activity
+* clearly show how much time is left
+
+Since Microbit doesn't have a speaker, Domato does not make any ticking sound as time passes. I didn't replace this feature using leds, because it would have been too distracting.
+
+When time is up, Domato uses LED blinking to catch the attention of the user.
+
+
+# Source code
 You can find the javascript source code of this project in the src folder. This is a screenshot of how the block editor looks like:
 
 <img src="https://github.com/wbigger/domato-timer/blob/master/screenshots/code.png">
@@ -46,7 +57,7 @@ To see the code on your PXT/Microbit editor, you have two possibilities:
 * import the .hex file of this project into PXT (you can find the .hex file in the target directory)
 * create a new project, switch to the javascript editor, than copy-paste the javascript source code.
 
-## About the name
+# About the name
 Domato is a wordplay between the translation of tomato in turkish (_domates_) and the word tomato itself. It is a small contribution to denounce the block of Wikipedia site in Turkey and other censorship actions.
 
 
