@@ -38,12 +38,12 @@ That's all! Enjoy!
 If you want to align the shown number of the current pomodoro with your daily counter, at the very beginning of a pomodoro you can press multiple time the A button. Note however that if you press the same button during a pomodoro, the counter will be *not* increased, because restarting a running pomodoro makes it void, according with the official recommendations.
 
 ## Compliance with official recommendations
-According to The Pomodoro Technique book, v1.3, paragraph 3.10, there are a number of recommendations for a pomodoro to be effective. I followed these recommendations when designing the Domato-Timer.
+According to The Pomodoro Technique book, v1.3, paragraph 3.10, there are a number of recommendations for a pomodoro to be effective. I followed these recommendations when designing the Domato-Timer:
 
-* start a new pomodoro requires an explicit action of the user, i.e. press a button, as declaration of user determination to start working on the activity
+* to start a new pomodoro requires an explicit action of the user, i.e. press a button, as declaration of user determination to start working on the activity
 * clearly show how much time is left
 
-Since Microbit doesn't have a speaker, Domato does not make any ticking sound as time passes. I didn't replace this feature using leds, because it would have been too distracting.
+Since Microbit doesn't have a speaker, Domato does not make any ticking sound as time passes. I didn't replace this tick feature using leds, because it would have been too distracting.
 
 When time is up, Domato uses LED blinking to catch the attention of the user.
 
