@@ -2,12 +2,12 @@ let plotxy = 0
 let plotMinutes = 0
 let statusIdle = 0
 let statusRest = 0
-let dailyCounter = 0
+let statusRunning = 0
 let index = 0
 let pomodoroSeconds = 0
-let statusRunning = 0
-let blinkToggle = false
+let dailyCounter = 0
 let status = 0
+let blinkToggle = false
 let index4 = 0
 basic.forever(() => {
     basic.clearScreen()
@@ -55,10 +55,14 @@ basic.forever(() => {
     }
 })
 input.onButtonPressed(Button.A, () => {
-    status = statusRunning
-    if (plotMinutes == 25) {
+    if (status == statusRunning && plotMinutes < 25 && plotMinutes > 0) {
+        // do not increase daily counter inside a pomodoro
+        dailyCounter += 0
+    } else {
+        // increase daily counter
         dailyCounter += 1
     }
+    status = statusRunning
     pomodoroSeconds = 25 * 60
     basic.clearScreen()
     basic.showNumber(dailyCounter)
@@ -95,3 +99,4 @@ pomodoroSeconds = 0
 plotMinutes = 0
 dailyCounter = 1
 led.setBrightness(150)
+
